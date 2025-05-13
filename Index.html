@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Holzautos der Luxusklasse</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+      background-color: #fff;
+      color: #000;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #f8f8f8;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    header h1 {
+      font-weight: 600;
+      font-size: 24px;
+    }
+
+    nav a {
+      margin-left: 30px;
+      text-decoration: none;
+      color: #000;
+      font-weight: 500;
+    }
+
+    .hero {
+      background: url('https://via.placeholder.com/1600x600') center/cover no-repeat;
+      height: 600px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .hero h2 {
+      font-size: 48px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #fff;
+      max-width: 700px;
+    }
+
+    .section {
+      padding: 80px 40px;
+      text-align: center;
+    }
+
+    .section h3 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: #f1f1f1;
+      width: 300px;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: left;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .card h4 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 16px;
+      color: #555;
+    }
+
+    footer {
+      background: #000;
+      color: #aaa;
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      .cards {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .hero h2 {
+        font-size: 36px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>HolzLux</h1>
+    <nav>
+      <a href="#">Start</a>
+      <a href="#autos">Modelle</a>
+      <a href="#features">Details</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Fahrbare Holzautos neu definiert</h2>
+    <p>Entdecke die perfekte Symbiose aus Handwerkskunst, Luxusdesign und nachhaltiger Mobilität – inspiriert vom Porsche 911 GT3 RS.</p>
+  </section>
+
+  <section id="autos" class="section">
+    <h3>Unsere Modelle</h3>
+    <div class="cards">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Rolls-Royce Holzauto">
+        <h4>Rolls-Royce Spirit</h4>
+        <p>Edle Linien, majestätische Anmutung – das ultimative Statement in Holzform.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Bugatti Holzauto">
+        <h4>Bugatti Velocity</h4>
+        <p>Extrem sportlich mit luxuriösem Holzfinish – inspiriert vom GT3 RS.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Lamborghini Holzauto">
+        <h4>Lamborghini Furia</h4>
+        <p>Schneidig, kompromisslos und aufregend – wie ein Supersportwagen aus Naturmaterialien.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Porsche Holzauto">
+        <h4>Porsche GT Wood RS</h4>
+        <p>Authentisch, präzise, schnell – ein echter GT3 RS aus feinstem Holz.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="section">
+    <h3>Technik trifft Natur</h3>
+    <p>Jedes Modell ist voll fahrbar, handgefertigt aus zertifiziertem Edelholz, ausgestattet mit präzisen Lenk- und Bremssystemen. Inspiriert von der Technik und Form des Porsche 911 GT3 RS – für Kenner und Sammler.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 HolzLux. Alle Rechte vorbehalten.
+  </footer>
+
+</body>
+</html>
